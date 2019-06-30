@@ -1,21 +1,28 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              My Very First Blog
+email:              ljh9574@gmail.com
+description:        초보개발자의 개발일기, 여행후기, 추천제품 리뷰 블로그
+author:             JENNIFER
+name:               Jennifer Lee
+email:              ljh9574@gmail.com
 baseurl:            ""
 url:                "https://jen0915.github.io"
 
 # Social Profiles
-twitter_username:   
-github_username:   jen0915 
-facebook_username:  
-linkedin_username:
+github_username:   jen0915
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - bower.json
+  - README.md
+gems:
+  - jekyll-sitemap
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
